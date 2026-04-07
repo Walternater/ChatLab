@@ -1,5 +1,33 @@
 [
   {
+    "version": "0.14.3",
+    "date": "2026-04-07",
+    "summary": "This release adds core debugging tools for Lab, improves search context and query performance, fills missing i18n labels, removes legacy prompts, and adds Linux packaging support.",
+    "changes": [
+      {
+        "type": "feat",
+        "items": [
+          "Add core debugging tools in Lab.",
+          "Make the search tool carry conversation context automatically.",
+          "Add query caching to speed up repeated access.",
+          "Remove the legacy prompt system."
+        ]
+      },
+      {
+        "type": "fix",
+        "items": ["Fill in missing i18n labels for tool-call display names."]
+      },
+      {
+        "type": "chore",
+        "items": ["Add Linux packaging support."]
+      },
+      {
+        "type": "docs",
+        "items": ["Update project documentation."]
+      }
+    ]
+  },
+  {
     "version": "0.14.2",
     "date": "2026-04-07",
     "summary": "This update improves the AI chat experience with copy support, cleaner UI, new FTS5 full-text search tools, leaner search parameters, and clearer error feedback with stronger test coverage.",
